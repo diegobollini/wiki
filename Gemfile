@@ -31,3 +31,4 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # Just the Docs
 # A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.
 gem "just-the-docs"
+gem 'addressable', '~> 2.4'
