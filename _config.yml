@@ -30,7 +30,7 @@ github_username:  diegobollini
 gitlab_username: diegobollini
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: just-the-docs
 plugins:
   - jekyll-feed
 
