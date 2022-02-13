@@ -21,8 +21,7 @@
 title: Wiki y Laboratorio
 email: diegobollini@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Espacio de aprendizaje y experimentación abierto. Proyectos, desarrollos, pruebas y otras cosas que quiero conservar y sistematizar.
-  Mi jardín digital técnico...
+  Espacio de aprendizaje y experimentación abierto.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wiki.bolli.ar" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: diegobollini
