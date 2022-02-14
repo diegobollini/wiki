@@ -2,6 +2,7 @@
 layout: page
 title: Tuits Random
 permalink: /tuits_random/
+parent: Redes
 ---
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/Dolina?src=hash&amp;ref_src=twsrc%5Etfw">#Dolina</a>: &quot;Cualquier cosa es preferible a esa mediocridad eficiente, a esa miserable resignación que algunos llaman madurez&quot;</p>&mdash; Dolina Quotes (@dolinaquotes) <a href="https://twitter.com/dolinaquotes/status/674360256256978944?ref_src=twsrc%5Etfw">December 8, 2015</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

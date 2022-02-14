@@ -1,4 +1,11 @@
-# GUÍA DEFINITIVA DE DOCKER, EL UNIVERSO Y TODO LO DEMÁS
+---
+layout: page
+title: docker
+permalink: /devops/docker_full
+parent: DevOps
+---
+
+# Guía full de docker
 
 ## Recursos
 
@@ -151,7 +158,7 @@ $ docker exec -it 989c9293a88b /bin/bash # -it: interactive terminal
 /# pwd
 /
 root@989c9293a88b:/# ls
-bin  boot  dev	docker-entrypoint.d  docker-entrypoint.sh  etc	home ...
+bin  boot  dev docker-entrypoint.d  docker-entrypoint.sh  etc home ...
 ```
 
 ## Práctica: Youtube Stats React App
@@ -250,7 +257,7 @@ $ docker push diegobollini/youtubereactapp-test
 ```
 
 Se puede ver el repositorio en:
-https://hub.docker.com/repository/docker/diegobollini/youtubereactapp-test  
+<https://hub.docker.com/repository/docker/diegobollini/youtubereactapp-test>  
 To push a new tag to this repository: `docker push diegobollini/youtubereactapp-test:tagname`
 
 ### Deploy en Digital Ocean: react app
@@ -271,11 +278,10 @@ $ docker run --rm -it -p 3000:3000/tcp diegobollini/youtubereactapp-test:latest
 Compiled successfully!
 You can now view youtube-app in the browser.
 ```
-Entonces desde el navegador: http://165.227.69.98:3000/ !!!
+
+Entonces desde el navegador: <http://165.227.69.98:3000/> !!!
 
 ### Deploy en Digital Ocean: wordpress con docker-compose
-
-
 
 ## Demo - Workflow
 
@@ -316,38 +322,31 @@ $ docker run -d -p 8081:8081 -e ME_CONFIG_MONGODB_ADMINUSERNAME=mongoadmin -e ME
 # Database connected
 # Admin Database connected
 ```
+
 Accedo a mongo-express desde el navegador (BD admin, config, local por default) y creo la BD "user-account" para poder conectar la app:
+
 ```bash
 $ docker ps # para chequear que esté todo OK (ver extensión en visual studio)
 CONTAINER ID   IMAGE           COMMAND                  CREATED         STATUS          PORTS                      NAMES
 52484c5dcb10   mongo-express   "tini -- /docker-ent…"   6 minutes ago   Up 6 minutes    0.0.0.0:8081->8081/tcp     mongo-express
 4588a6c184ce   mongo           "docker-entrypoint.s…"   14 hours ago    Up 13 minutes   0.0.0.0:27017->27017/tcp   mongodb
 ```
+
 Acá a lo mejor la compliqué, pero como no use las mismas variables que en el video, cambié las credenciales <user:password> en ```server.js``` de acuerdo a las definidas al lanzar el contenedor.
+
 - la app JS claramente tiene más código, se conecta a la BD, etc., etc. pero no lo domino aun y no lo analizo en detalle.
 - en la BD user-account, crear db.collection=users.
 
 ### App node
 
 Como en la guía que estoy siguiendo omiten esta etapa, combino con [este video de Travis Media](https://www.youtube.com/watch?v=i7ABlHngi1Q) donde hace deploy de una app con node.
+
 - preparar Dockerfile (ver sección) y desde la línea de comandos (en esa carpeta):
 - desde la carpeta donde esté guardado:
 $ docker build . -t demoapp
-
-
-
 
 #### Dockerfile
 
 Revisar archivo del proyecto [Docker demo app](https://gitlab.com/diegobollini/techworld-js-docker-demo-app/-/blob/master/Dockerfile) de la guía Techworld with Nana.
 
-
-
-
-
-
-https://youtu.be/3c-iBn73dDE?t=4425
-
-
-
-
+<https://youtu.be/3c-iBn73dDE?t=4425>

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Acerca de
+nav_order: 1
 permalink: /about/
 ---
 ## Wiki personal / Jardín digital / Laboratorio
