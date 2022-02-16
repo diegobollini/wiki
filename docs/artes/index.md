@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Redes
-nav_order: 4
+title: Artes
+nav_order: 1
 has_children: true
 has_toc: false
 ---
