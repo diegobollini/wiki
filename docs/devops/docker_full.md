@@ -1,7 +1,7 @@
 ---
 layout: page
 title: docker
-permalink: /devops/docker_full
+permalink: /docker_full
 parent: DevOps
 ---
 
