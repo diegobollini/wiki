@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Scrum popular
-permalink: /scrum_popular
+permalink: /scrum_popular/
 parent: Textos
 ---
 

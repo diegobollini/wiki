@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Notas Open Spaces
-permalink: /open_space
+permalink: /open_space/
 parent: Textos
 ---
 
