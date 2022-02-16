@@ -11,7 +11,7 @@ parent: DevOps
 
 - [Documentación oficial](https://docs.docker.com/)
 - [Techworld with Nana: Docker Tutorial for Beginners](https://www.youtube.com/watch?v=3c-iBn73dDE)
-- [Amigoscode: Docker Tutorial for Beginners | Full Course 2020](https://www.youtube.com/watch?v=p28piYY_wv8)
+- [Amigoscode: Docker Tutorial for Beginners](https://www.youtube.com/watch?v=p28piYY_wv8)
 - [Docker For Beginners: From Docker Desktop to Deployment](https://www.youtube.com/watch?v=i7ABlHngi1Q)
 
 ## Instalar docker, docker-compose
