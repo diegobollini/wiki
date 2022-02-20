@@ -27,9 +27,9 @@ $ ssh -i /.ssh/id_rsa root@68.183.122.253
 # Server
 $ apt update
 $ apt upgrade
-$ git clone https://gitlab.com/diegobollini/wiki/-/blob/master/new_servers.sh
-$ chmod +x new_servers.sh
-$ /new_servers.sh
+# Usando un script con configuraciones básicas
+$ curl -L https://raw.githubusercontent.com/do-community/automated-setups/master/Ubuntu-20.04/initial_server_setup.sh -o /tmp/initial_setup.sh
+$ bash /tmp/initial_setup.sh
 $ exit
 ```
 

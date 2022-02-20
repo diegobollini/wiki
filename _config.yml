@@ -54,3 +54,22 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# Back to top link
+back_to_top: true
+back_to_top_text: "Ir arriba"
+
+footer_content: "Sin Copyright. <a href=https://bolli.ar target=_blank>Diego Bollini</a> desde 2022."
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+  # ignore:
+  #   envs: all
