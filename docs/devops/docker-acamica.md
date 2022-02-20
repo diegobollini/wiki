@@ -1,7 +1,7 @@
 ---
 layout: page
-title: docker por acamica
-permalink: /docker_acamica/
+title: Docker - Intro Acamica
+permalink: /docker-acamica/
 parent: DevOps
 ---
 

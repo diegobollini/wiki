@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Setup server (artesanal)
-permalink: /setup_server_artesanal/
+permalink: /setup-server_artesanal/
 parent: Linux
 ---
 

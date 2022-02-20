@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Setup notebook (artesanal)
-permalink: /setup_notebook_artesanal/
+permalink: /setup-notebook_artesanal/
 parent: Linux
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: page
 parent: DevOps
-title: docker
-permalink: /docker_full/
+title: Docker SSOT
+permalink: /docker-full/
 ---
 
 # Guía full de docker

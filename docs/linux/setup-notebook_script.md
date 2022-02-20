@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Setup notebook (script)
-permalink: /setup_notebook_script/
+permalink: /setup-notebook_script/
 parent: Linux
 ---
 
