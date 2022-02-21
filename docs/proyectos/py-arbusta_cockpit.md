@@ -29,7 +29,7 @@ Your public key has been saved in /home/diego/_desarrollo/cockpit_key.pub.
 
 ## Alta Server
 
-- pla-cockpit-monitor: 165.227.89.5
+- pla-cockpit-monitor
 - DNS: servidores.arbusta.net
 
 ### Configuración server
@@ -37,7 +37,7 @@ Your public key has been saved in /home/diego/_desarrollo/cockpit_key.pub.
 ```bash
 # Cheatsheet - Alta de servidores
 # Script new_server.sh
-$ ssh -i /.ssh/id_rsa root@165.227.89.5
+$ ssh -i /.ssh/id_rsa root@IP
 $ bash new_server.sh
 # Al volver a loguear se carga la pass para el user
 ```
@@ -55,7 +55,9 @@ $ sudo systemctl restart cockpit.socket
 $ sudo systemctl enable --now cockpit.socket
 ```
 
-<!-- ### Configurar nginx
+<!-- 
+# Hice un intento con nginx pero no funcionó
+### Configurar nginx
 
 - [Guía](https://github.com/cockpit-project/cockpit/wiki/Proxying-Cockpit-over-NGINX#virtual-host-file)
 
@@ -119,17 +121,18 @@ $ systemctl enable cockpit.socket
 
 ## Agregar servidores remotos
 
-https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/managing_systems_using_the_rhel_8_web_console/managing-remote-systems-in-the-web-console_system-management-using-the-rhel-8-web-console
-28.4. Setting up SSH for remote management in the web console
+[Setting up SSH for remote management in the web console](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/managing_systems_using_the_rhel_8_web_console/managing-remote-systems-in-the-web-console_system-management-using-the-rhel-8-web-console)
 
+```bash
 $ ssh-keygen
 Password to the generated SSH key.
 The contents of the ~/.ssh/id_rsa.pub file copied in the clipboard.
 Your identification has been saved in /home/diego/.ssh/cockpitweb_key.
 Your public key has been saved in /home/diego/.ssh/cockpitweb_key.pub.
+```
 
-- agregué mi llaves (pub y priv) para poder conectarme al resto de los servidores
+Agregué mi llaves (pub y priv) para poder conectarme al resto de los servidores:
 
-cat ~/.ssh/id_rsa.pub | ssh USER@HOST "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
-
-
+```bash
+$ cat ~/.ssh/id_rsa.pub | ssh USER@HOST "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+```

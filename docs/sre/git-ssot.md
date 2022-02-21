@@ -1,6 +1,6 @@
 ---
 layout: page
-parent: DevOps
+parent: SRE
 title: Git SSOT
 permalink: /git-ssot/
 ---

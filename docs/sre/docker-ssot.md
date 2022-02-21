@@ -1,6 +1,6 @@
 ---
 layout: page
-parent: DevOps
+parent: SRE
 title: Docker SSOT
 permalink: /docker-full/
 ---

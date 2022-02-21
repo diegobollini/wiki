@@ -2,7 +2,7 @@
 layout: page
 title: Docker - Intro Acamica
 permalink: /docker-acamica/
-parent: DevOps
+parent: SRE
 ---
 
 # Introducción a Docker

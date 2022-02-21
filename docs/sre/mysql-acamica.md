@@ -1,6 +1,6 @@
 ---
 layout: page
-parent: DevOps
+parent: SRE
 title: MySQL - Intro Acamica
 permalink: /mysql-acamica/
 ---

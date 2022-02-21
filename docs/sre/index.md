@@ -1,6 +1,6 @@
 ---
 layout: default
-title: DevOps
+title: SRE
 nav_order: 2
 has_children: true
 ---
